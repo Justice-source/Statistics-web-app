@@ -10,27 +10,6 @@ we will build a web application that will allow us to understand what Switch Sta
 # What are switch-statements
 We will now learn the syntax of a Switch statement. Below is an example of how a Switch statement should look like.
 
-
-switch (value){
-	case “one”:
-		<code>
-		break;
-	case “two”:
-		<code>
-		break;
-	default:
-		<code>
-		break;
-}
-
-
-From the code above, you may notice that a Switch Statement mimics closely to If-Else Statements. The stark difference between the If Statements and a Switch Statement is that an If Statement is normally used to apply the code when certain criteria are met. However, a Switch Statement is used to determine a certain preset value based on the value supplied on the first line of the switch statement. In lines 2 and 5 of the code above, you may notice that the preset value is “one” and “two”. This is when we are hoping to catch when the “value” variable of line 1 meets those preset values. These are also known as cases. 
-
-Just like an If Statement's “else” clause, we also have a similar function in the Switch Statement syntax. In line 7, we also have a default case to catch any occurrence that has yet to be caught by the preset cases above. The default statement in the Switch statement is optional. 
-
-In lines 4, 7 and 10, we used the break keyword. This is to distinguish the difference between the code between the various cases. Without the breaks, this could cause a waterfall effect. Switch statements are also used to validate conditions. In those cases, some values coincide with other cases within the switch statement. This may cause your algorithm to behave in an unexpected manner. 
-
-
 To set up the development environment and run the web application locally, follow these steps:
 
 1. Clone the GitHub repository:
